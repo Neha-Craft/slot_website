@@ -60,7 +60,7 @@ export default function Header() {
                   </a>
                 </div>
                 <a href="#" className="bk-btn">
-                  Booking Now
+                  Call Now
                 </a>
               </div>
             </div>

@@ -35,7 +35,7 @@ export default function OffcanvasMenu() {
         </div>
         <div className="header-configure-area">
           <a href="#" className="bk-btn">
-            Booking Now
+            Call Now
           </a>
         </div>
         <nav className="mainmenu mobile-menu">

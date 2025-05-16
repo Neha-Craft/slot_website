@@ -342,6 +342,52 @@ ol {
   margin-right: 64px;
   position: relative;
 }
+/* Remove unwanted border, outline, shadow */
+.service-card,
+.service-card:focus,
+.service-card:hover {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Image hover effect */
+.image-hover-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  height: 300px;
+  z-index: 0;
+}
+
+.image-hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* initial transparent */
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+
+.image-hover-wrapper:hover .image-hover-overlay {
+  /* background-color: rgba(0, 0, 0, 0.4);  */
+}
+.price {
+  font-weight: 700;        /* Make the price bold */
+  font-size: 1.25rem;      /* Slightly larger font size */
+  color: #2c3e50;          /* Dark color for good contrast */
+  letter-spacing: 0.02em;  /* Small spacing between characters */
+}
+
+.price small {
+  font-weight: 400;       /* Normal weight for the "/ night" text */
+  font-size: 0.875rem;    /* Smaller size for subtle look */
+  color: #7f8c8d;         /* Gray color to differentiate */
+}
+
 
 .top-nav .tn-left li:after {
   position: absolute;
@@ -1108,6 +1154,146 @@ ol {
 
     
     }
+    .hotelservices{
+        color: #19191a;
+    margin-top: 10px;
+    font-size: 44px;
+    line-height: 58px;
+        margin: auto;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+.btn-class{
+  padding: 30px;
+  background-color: #FFFFFF;
+     font-weight: 500;
+     padding: 10px 20px;
+     color:#000;
+     border: 10px;
+}
+.ptext {
+  font-size: 32px;
+  color: #000;
+  font-weight: 500;
+}
+
+.ptext {
+  font-size: 32px;
+  color: #000;
+  font-weight: 500;
+}
+
+.ptext {
+  font-size: 32px;
+  color: #000;
+  font-weight: 500;
+}
+
+.ptext-link {
+  font-size: 32px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.room-wrap:hover .ptext-link {
+  color: #FFF;
+}
+.p-contact{
+  font-size: 44px;
+    color: #19191a;
+    margin-bottom: 24px;
+}
+.contact-text{
+  color: #707079;
+      font-size: 16px;
+    font-family: "Cabin", sans-serif;
+    color: #6b6b6b;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    max-width: 359px;
+}
+.adress-table{
+      font-size: 16px;
+      color: #707079;
+    width: 75px;
+   
+    line-height: 36px;
+    font-weight: 500;
+}
+.adress-table-info{
+      font-size: 16px;
+    color: #19191a;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+    .unwindservices{
+      text-align: center;
+      padding-top: 2rem;
+      color: #dfa974 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    }
+.services {
+    width: 100% !important;
+    background: #fff !important;
+    padding: 30px 20px !important;
+    border-radius: 50% 50% 50% 0 !important;
+    -moz-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+    -webkit-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    transition: all 0.3s ease !important;
+    -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06) !important;
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06) !important;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06) !important;
+}
+.services .icon {
+    margin-bottom: 8px !important;
+    display: flex;
+    justify-content: center;
+}
+.services:hover {
+    background: #dfa974 !important;
+    -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18) !important;
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18) !important;
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18) !important;
+}
+.services .icon span {
+    font-size: 70px !important;
+    line-height: 1.2 !important;
+    color: #c5a880 !important;
+}
+.service-card {
+  transition: all 0.3s ease  !important;
+  display: block  !important;
+  padding: 20px  !important;
+  border-radius: 8px  !important;
+  background-color: white  !important;
+  color: black !important;
+  text-decoration: none  !important;
+}
+
+.service-card:hover {
+  background-color: black !important;
+  color: white  !important;
+}
+
+.service-card:hover .icon img {
+  filter: brightness(0) invert(1); /* make image white on black */
+}
+
+.service-card:hover .text p {
+  color: white;
+}
+
 
     .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a {
         /* margin: 0; */

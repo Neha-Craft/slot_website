@@ -2,6 +2,8 @@ import { Inter, Lora, Cabin } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })

@@ -10,27 +10,34 @@ import SearchModel from "@/src/components/search-model"
 import OffcanvasMenu from "@/src/components/offcanvas-menu"
 import FacilitiesInfo from "@/src/components/facilities-info"
 import Specialoccassions from "@/src/components/special-occassions"
+import Services from "@/src/components/services"
+import Features from "@/src/components/features"
+import ContactInfo from "@/src/components/contactus"
 
 import OfferCards from "@/src/components/OfferCards"
 
 export default function Home() {
   return (
     <main>
-        <OffcanvasMenu />  
-        <Header /> 
-        {/* <FacilitiesInfo/> */}
+         <OffcanvasMenu />  
+        <Header />  
+         {/* <FacilitiesInfo/>  */}
+    
         
-           <HeroSection />   
+            <HeroSection />   
            <AboutSection />    
-           <ServicesSection />     
-         {/* <RoomSection />     */}
+           <ServicesSection />      
+         <RoomSection />     
        
-            <TestimonialSection />      
-          {/* <BlogSection />      */}
-             <Specialoccassions/> 
-            < OfferCards/>
-         <Footer />   
-         <SearchModel />        
+             <TestimonialSection />       
+           {/* <BlogSection />       */}
+              <Specialoccassions/> 
+            {/* < OfferCards/>  */}
+                 <Services/> 
+        <Features/>
+        <ContactInfo/>
+          <Footer />   
+         <SearchModel />         
     </main>
   )
 }
