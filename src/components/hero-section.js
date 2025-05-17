@@ -1,23 +1,22 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 export default function HeroSection() {
-  const [checkInDate, setCheckInDate] = useState("")
-  const [checkOutDate, setCheckOutDate] = useState("")
-  const [guests, setGuests] = useState("2 Adults")
-  const [rooms, setRooms] = useState("1")
+  const [checkInDate, setCheckInDate] = useState("");
+  const [checkOutDate, setCheckOutDate] = useState("");
+  const [guests, setGuests] = useState("2 Adults");
+  const [rooms, setRooms] = useState("1");
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     // Handle booking form submission
-    console.log({ checkInDate, checkOutDate, guests, rooms })
-  }
+    console.log({ checkInDate, checkOutDate, guests, rooms });
+  };
 
-    useEffect(() => {
-
-    document.querySelectorAll('.set-bg').forEach((el) => {
-      const bg = el.getAttribute('data-setbg');
+  useEffect(() => {
+    document.querySelectorAll(".set-bg").forEach((el) => {
+      const bg = el.getAttribute("data-setbg");
       if (bg) {
         el.style.backgroundImage = `url(${bg})`;
       }
@@ -25,51 +24,76 @@ export default function HeroSection() {
   }, []);
 
   return (
-      <section className="hero-section">
+    <section className="hero-section">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="hero-text">
               <h1>Shree RADHA Madhavam Resort</h1>
               <p>
-                Here are the best hotel booking sites, including recommendations for international
-                travel and for finding low-priced hotel rooms.
+                Here are the best hotel booking sites, including recommendations
+                for international travel and for finding low-priced hotel rooms.
               </p>
-              <a href="#" className="primary-btn">Discover Now</a>
+              <a href="#" className="primary-btn">
+                Discover Now
+              </a>
             </div>
           </div>
           <div className="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
             <div className="booking-form">
-              <h3>Booking Your Hotel</h3>
+           <h3>Reserve Your Stay</h3>
+
               <form action="#">
+                <div>
+                <div className="select-option">
+                  <label htmlFor="event">Select Event</label>
+                  <select id="event">
+                    <option value="wedding">Wedding Ceremony</option>
+                    <option value="reception">Reception Party</option>
+                    <option value="corporate">Corporate Event</option>
+                    <option value="birthday">Birthday Celebration</option>
+                    <option value="anniversary">Anniversary Party</option>
+                    <option value="retreat">Wellness Retreat</option>
+                    <option value="team-building">
+                      Team Building Activity
+                    </option>
+                    <option value="conference">Business Conference</option>
+                    <option value="festival">Cultural Festival</option>
+                    <option value="private-dinner">Private Dinner</option>
+                  </select>
+                </div>
+
                 <div className="check-date">
-                  <label htmlFor="date-in">Check In:</label>
+                  <label htmlFor="date-in">Contact Person</label>
                   <input type="text" className="date-input" id="date-in" />
-                  <i className="icon_calendar"></i>
+             
                 </div>
                 <div className="check-date">
-                  <label htmlFor="date-out">Check Out:</label>
-                  <input type="text" className="date-input" id="date-out" />
-                  <i className="icon_calendar"></i>
-                </div>
+  <label htmlFor="phone">Phone Number:</label>
+  <input type="text" id="phone" className="date-input" placeholder="e.g., +1 234 567 8901" />
+</div>
+<div className="check-date">
+  <label htmlFor="event-date">Event Date:</label>
+  <input type="text" className="date-input" id="event-date" placeholder="MM/DD/YYYY" />
+  <i className="icon_calendar"></i>
+</div>
+
+</div>
+
+              
+           
+                
+         
                 <div className="select-option">
-                  <label htmlFor="guest">Guests:</label>
-                  <select id="guest">
-                    <option value="">2 Adults</option>
-                    <option value="">3 Adults</option>
-                  </select>
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Your message here..."
+                    className="select-textarea"
+                  ></textarea>
                 </div>
-                <div className="select-option">
-                  <label htmlFor="room">Room:</label>
-                  <select id="room">
-                    <option value="1">1 Room</option>
-                    <option value="2">2 Room</option>
-                    <option value="3">3 Room</option>
-                    <option value="4">4 Room</option>
-                    <option value="5">5 Room</option>
-                  </select>
-                </div>
-                <button type="submit">Check Availability</button>
+                <button type="submit">Send Now</button>
               </form>
             </div>
           </div>
@@ -78,10 +102,8 @@ export default function HeroSection() {
 
       <div className="hero-slider owl-carousel">
         <div className="hs-item set-bg" data-setbg="/hero-1.jpg"></div>
-        {/* <div className="hs-item set-bg" data-setbg="/hero-2.jpg"></div>
-        <div className="hs-item set-bg" data-setbg="/hero-3.jpg"></div> */}
+ 
       </div>
     </section>
-  
-  )
+  );
 }

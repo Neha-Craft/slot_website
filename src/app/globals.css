@@ -602,7 +602,7 @@ ol {
 }
 
 .hero-text h1 {
-  font-size: 80px;
+  font-size: 75px;
   line-height: 90px;
   color: #ffffff;
   margin-bottom: 16px;
@@ -617,18 +617,18 @@ ol {
 
 .booking-form {
   background: #ffffff;
-  padding: 44px 40px 50px 40px;
+  padding: 36px 40px 36px 40px;
   border-radius: 4px;
 }
 
 .booking-form h3 {
   color: #19191a;
-  margin-bottom: 36px;
+  margin-bottom: 18px;
 }
 
 .booking-form form .check-date {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .booking-form form .check-date label {
@@ -640,7 +640,7 @@ ol {
 
 .booking-form form .check-date input {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border: 1px solid #ebebeb;
   border-radius: 2px;
   font-size: 16px;
@@ -658,20 +658,20 @@ ol {
 }
 
 .booking-form form .select-option {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .booking-form form .select-option label {
   font-size: 14px;
   color: #707079;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .booking-form form .select-option select {
   border-radius: 2px;
   border: 1px solid #ebebeb;
-  height: 50px;
+  height: 40px;
   width: 100%;
   padding-left: 20px;
   font-size: 16px;
@@ -691,7 +691,7 @@ ol {
   background: transparent;
   width: 100%;
   height: 46px;
-  margin-top: 30px;
+  margin-top: 13px;
   cursor: pointer;
 }
 
@@ -746,6 +746,7 @@ ol {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .service-item:hover {
@@ -1112,7 +1113,7 @@ ol {
 }
 .carousel-control-next, .carousel-control-prev {
 
-    top: 170px !important
+    top: 268px !important
  
  
 }
@@ -1280,6 +1281,17 @@ ol {
   color: black !important;
   text-decoration: none  !important;
 }
+.select-textarea{
+  color: #19191a;
+ 
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    width: 100%;
+    min-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 .service-card:hover {
   background-color: black !important;
@@ -1353,7 +1365,7 @@ ol {
 }
 
 .custom-button1:hover {
-  background-color: #ECF645 !important;
+  background-color:rgb(233, 183, 133) !important;
   color: #152329 !important;
 }
 

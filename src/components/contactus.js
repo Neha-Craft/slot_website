@@ -33,22 +33,27 @@ export default function ContactInfo() {
         <div className="col-md-5">
           <p className="p-contact">Contact Info</p>
           <p className="contact-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            Landmark: Mau road, near Dandraua<br />
+            Parties, Marriages, B'day parties
           </p>
 
           <div className="mb-2">
             <strong className="adress-table" style={{ marginRight: "10px" }}>Address:</strong>
-            <span className="adress-table-info">856 Cordia Extension Apt. 356, Lake, US</span>
+            <span className="adress-table-info">Mau Road, District Bhind</span>
           </div>
 
           <div className="mb-2">
             <strong className="adress-table" style={{ marginRight: "10px" }}>Phone:</strong>
-            <span className="adress-table-info">(12) 345 67890</span>
+            <span className="adress-table-info">777-208-7177, 7974921544, 7000900196</span>
           </div>
 
           <div className="mb-2">
-            <strong className="adress-table" style={{ marginRight: "10px" }}>Email:</strong>
+            <strong className="adress-table" style={{ marginRight: "10px" }}>Contact Person:</strong>
+            <span className="adress-table-info">Pawan Sharm, Girraj Katare</span>
+          </div>
+
+          <div className="mb-2">
+            <strong className="adress-table" style={{ marginRight: "10px" }} >Email:</strong>
             <span className="adress-table-info">info.colorlib@gmail.com</span>
           </div>
 
@@ -78,6 +83,32 @@ export default function ContactInfo() {
                   type="email"
                   className="form-control"
                   placeholder="Your Email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                    style={{padding:"1rem"}}
+                  required
+                />
+              </div>
+            </div>
+              <div className="row mb-4">
+              <div className="col-md-6 mb-3 mb-md-0">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Your Phone"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  style={{padding:"1rem"}}
+                  required
+                />
+              </div>
+              <div className="col-md-6">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Contact person"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}

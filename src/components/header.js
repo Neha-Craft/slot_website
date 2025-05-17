@@ -76,8 +76,12 @@ export default function Header() {
                   <Image
                     src="/logo.png"
                     alt="Logo"
-                    width={150}
+                    width={250}
                     height={60}
+                    style={{
+                      width:"250px",
+                  minHeight:"60px"
+                    }}
                   />
                 </Link>
               </div>

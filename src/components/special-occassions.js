@@ -11,7 +11,7 @@ export default function Specialoccassions() {
       </div>
 
       <div className='container'>
-        <div className="d-flex text-center" style={{ gap: "65px" }}>
+        <div className="d-flex text-center align-items-center" style={{ gap: "65px" }}>
           <div style={{ paddingTop: "36px" }}>
             <p style={{ fontSize: "24px", fontWeight: 500, color: "#19191a" }}>
               Plan your special occasion with us

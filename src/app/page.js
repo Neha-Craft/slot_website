@@ -15,6 +15,7 @@ import Features from "@/src/components/features"
 import ContactInfo from "@/src/components/contactus"
 
 import OfferCards from "@/src/components/OfferCards"
+import AttractionSection from "@/src/components/attractionSection"
 
 export default function Home() {
   return (
@@ -27,15 +28,18 @@ export default function Home() {
             <HeroSection />   
            <AboutSection />    
            <ServicesSection />      
-         <RoomSection />     
+         {/* <RoomSection />      */}
        
-             <TestimonialSection />       
+          
            {/* <BlogSection />       */}
               <Specialoccassions/> 
             {/* < OfferCards/>  */}
                  <Services/> 
+                 <AttractionSection/>
         <Features/>
+          
         <ContactInfo/>
+           <TestimonialSection />     
           <Footer />   
          <SearchModel />         
     </main>

@@ -8,7 +8,7 @@ function Services() {
       <div>
         <div>
           <p className="unwindservices">Unwind Services</p>
-          <p className="hotelservices">Explore Our Hotel Services</p>
+          <p className="hotelservices">Amenities</p>
         </div>
         <div className=" container ">
           <div className="row gx-3">
