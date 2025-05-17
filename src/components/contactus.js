@@ -117,6 +117,34 @@ export default function ContactInfo() {
                 />
               </div>
             </div>
+               <div className="row mb-4">
+              <div className="col-md-6 mb-3 mb-md-0">
+                <input
+                  type="date"
+                  className="form-control"
+                  placeholder="date"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  style={{padding:"1rem"}}
+                  required
+                />
+              </div>
+              <div className="col-md-6">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Contact person"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                    style={{padding:"1rem"}}
+                  required
+                />
+              </div>
+            </div>
+            
+            
 
             <div className="mb-4">
               <textarea
