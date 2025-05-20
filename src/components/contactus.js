@@ -134,7 +134,7 @@ export default function ContactInfo() {
                   <div className="row mb-4">
                     <div className="col-md-6 mb-3">
                       <div className="form-group">
-                        <label className="form-label mb-2">Organization/Contact Person</label>
+                        <label className="form-label mb-2">Contact Person</label>
                         <input
                           type="text"
                           name="contactPerson"
