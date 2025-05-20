@@ -39,7 +39,7 @@ export default function Header() {
             <div className="col-lg-6">
               <ul className="tn-left">
                 <li>
-                  <i className="fa fa-phone"></i> (12) 345 67890
+                  <i className="fa fa-phone"></i> (+91) 777-208-7177
                 </li>
                 <li>
                   <i className="fa fa-envelope"></i> info.radhamadhavam@gmail.com
@@ -52,9 +52,9 @@ export default function Header() {
                   <a href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </a> */}
                   <a href="#">
                     <i className="fab fa-instagram"></i>
                   </a>

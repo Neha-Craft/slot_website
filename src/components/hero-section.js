@@ -31,8 +31,7 @@ export default function HeroSection() {
             <div className="hero-text">
               <h1>Shree RADHA Madhavam Resort</h1>
               <p>
-                Here are the best hotel booking sites, including recommendations
-                for international travel and for finding low-priced hotel rooms.
+            Welcome to Shree RADHA Madhavam Resort — a serene getaway nestled in the heart of Gwalior. Experience luxury, tradition, and tranquility all in one enchanting destination.
               </p>
               <a href="#" className="primary-btn">
                 Discover Now

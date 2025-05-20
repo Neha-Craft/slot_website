@@ -16,32 +16,43 @@ import ContactInfo from "@/src/components/contactus"
 
 import OfferCards from "@/src/components/OfferCards"
 import AttractionSection from "@/src/components/attractionSection"
+import Gallery from "@/src/components/gallery"
 
 export default function Home() {
   return (
     <main>
-         <OffcanvasMenu />  
-        <Header />  
-         {/* <FacilitiesInfo/>  */}
+          <OffcanvasMenu />  
+        <Header />   
+       
     
         
-            <HeroSection />   
-           <AboutSection />    
-           <ServicesSection />      
-         {/* <RoomSection />      */}
+            <HeroSection />    
+             <AboutSection />     
+             <ServicesSection />  
+              <Gallery/> 
+
+       
        
           
-           {/* <BlogSection />       */}
-              <Specialoccassions/> 
-            {/* < OfferCards/>  */}
-                 <Services/> 
-                 <AttractionSection/>
-        <Features/>
+        
+                {/* <Specialoccassions/>    */}
           
-        <ContactInfo/>
+                   <Services/>  
+                   <AttractionSection/>  
+                  
+         <Features/> 
+          
+         <ContactInfo/>
            <TestimonialSection />     
           <Footer />   
-         <SearchModel />         
+         <SearchModel />          
+
+            {/* <RoomSection />       */}
+                {/* <BlogSection />        */}
+                   {/* < OfferCards/>   */}
+                      {/* <FacilitiesInfo/>   */}
+
+         
     </main>
   )
 }

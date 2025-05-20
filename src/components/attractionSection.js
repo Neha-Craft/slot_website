@@ -7,7 +7,7 @@ function AttractionSection() {
       <div className="container">
         <div className="section-title text-center mb-5">
           <span>Nearby Attractions</span>
-          <h2>Explore Places Around Us</h2>
+          <p className='attractionsectionptag'>Explore Places Around Us</p>
         </div>
         <div className="row">
           {/* Attraction 1 */}
@@ -26,7 +26,7 @@ style={{
   className="img-fluid rounded mb-3"
 />
               <h4>Dandraua Sarkar Temple</h4>
-              <p>One of the most visited spiritual places, known for its serene environment and religious significance. Just 5 km from the resort.</p>
+              <p>One of the most visited spiritual places, known for its serene environment and religious significance. Just 10 km from the resort.</p>
             </div>
           </div>
 

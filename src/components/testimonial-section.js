@@ -6,20 +6,33 @@ import Image from "next/image"
 export default function TestimonialSection() {
   const [activeIndex, setActiveIndex] = useState(0)
 
-  const testimonials = [
-    {
-      id: 1,
-      text: "After a construction project took longer than expected, my husband, my daughter and I needed a place to stay for a few nights. As a Chicago resident, we know a lot about our city, neighborhood and the types of housing options available and absolutely love our vacation at Sona Hotel.",
-      author: "Alexander Vasquez",
-      rating: 4.5,
-    },
-    {
-      id: 2,
-      text: "After a construction project took longer than expected, my husband, my daughter and I needed a place to stay for a few nights. As a Chicago resident, we know a lot about our city, neighborhood and the types of housing options available and absolutely love our vacation at Sona Hotel.",
-      author: "Alexander Vasquez",
-      rating: 4.5,
-    },
-  ]
+const testimonials = [
+  {
+    id: 1,
+    text: "The ambience, hospitality, and food were absolutely amazing. We hosted our sister’s wedding here and everything went perfectly! Highly recommend Shree RADHA Madhavam Resort for weddings and family gatherings.",
+    author: "Ritika Sharma (Delhi)",
+    rating: 5,
+  },
+  {
+    id: 2,
+    text: "We had lunch at the resort’s restaurant during our trip to Gwalior. The food was fresh, flavorful, and served with warmth. Truly felt like homemade food with a touch of luxury.",
+    author: "Kavita Mehra (Indore)",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    text: "The vegetarian dishes were outstanding! From the paneer tikka to the desserts, everything was top-notch. A must-visit restaurant for anyone passing through Gwalior.",
+    author: "Rohit Sinha (Bhopal)",
+    rating: 5,
+  },
+  {
+    id: 4,
+    text: "Our stay at the resort was peaceful and comfortable. The rooms were clean, the staff was polite, and the restaurant food tasted just like home. A great experience in Gwalior!",
+    author: "Suresh Patil (Nagpur)",
+    rating: 4,
+  },
+]
+
 
   const renderRating = (rating) => {
     const stars = []
@@ -58,9 +71,7 @@ export default function TestimonialSection() {
                     <div className="rating">{renderRating(testimonial.rating)}</div>
                     <h5> - {testimonial.author}</h5>
                   </div>
-                  <div className="d-flex justify-content-center">
-                  <Image src="/testimonial.png?height=60&width=150" alt="Testimonial Logo" width={100} height={100} />
-                  </div>
+            
                 </div>
               ))}
               <div className="slider-nav mt-4 text-center">
