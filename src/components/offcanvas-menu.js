@@ -28,10 +28,25 @@ export default function OffcanvasMenu() {
       <div className="offcanvas-menu-overlay" onClick={closeOffcanvasMenu}></div>
       <div className="offcanvas-menu-wrapper">
         <div className="canvas-close" onClick={closeOffcanvasMenu}>
-          <svg
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  strokeWidth="3"
+  strokeLinecap="round"
+  strokeLinejoin="round"
+>
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -41,11 +56,9 @@ export default function OffcanvasMenu() {
           >
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
+          </svg> */}
         </div>
-        <div className="search-icon search-switch">
-          <i className="fa fa-search"></i>
-        </div>
+     
         <div className="header-configure-area">
           <a href="tel:+917772087177" className="bk-btn">
             Call Now
@@ -58,11 +71,7 @@ export default function OffcanvasMenu() {
                 Home
               </Link>
             </li>
-            <li>
-              <Link href="/rooms" onClick={closeOffcanvasMenu}>
-                Rooms
-              </Link>
-            </li>
+         
             <li>
               <Link href="/about-us" onClick={closeOffcanvasMenu}>
                 About Us
@@ -80,9 +89,7 @@ export default function OffcanvasMenu() {
           <a href="#">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#">
-            <i className="fab fa-twitter"></i>
-          </a>
+       
           <a href="https://www.instagram.com/shri_radhamadhavam_resort/">
             <i className="fab fa-instagram"></i>
           </a>
