@@ -66,7 +66,7 @@ const testimonials = [
             <div className="testimonial-slider">
               {testimonials.map((testimonial, index) => (
                 <div key={testimonial.id} className={`ts-item ${index === activeIndex ? "d-block" : "d-none"}`}>
-                  <p>{testimonial.text}</p>
+                  <p style={{paddingBottom:"1rem"}}>{testimonial.text}</p>
                   <div className="ti-author">
                     <div className="rating">{renderRating(testimonial.rating)}</div>
                     <h5> - {testimonial.author}</h5>

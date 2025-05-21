@@ -82,12 +82,15 @@ p {
   font-weight: 400;
   line-height: 26px;
   margin: 0 0 15px 0;
+  margin-bottom: 0rem !important;
 }
 
 img {
   max-width: 100%;
 }
-
+.p-features{
+  margin-top: 1rem !important;
+}
 input:focus,
 select:focus,
 button:focus,
@@ -116,6 +119,32 @@ ol {
   text-align: center;
   margin-bottom: 22px;
 }
+/* .whatsapp-text{
+    bottom: '125px';
+    right: '20px';
+    backgroundColor: '#25D366',
+    color: 'white',
+    borderRadius: '50%',
+    width: '40px',
+    height: '40px',
+    fontSize: '20px',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+    zIndex: 1050,
+} */
+
+.whatsapp-text {
+    bottom: 125px !important;
+    right: 20px !important;
+    background-color: #25D366 !important;
+    color: white !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    z-index: 1050 !important;
+}
+
 
 .section-title span {
   font-size: 14px;
@@ -378,7 +407,7 @@ ol {
 .price {
   font-weight: 700;        /* Make the price bold */
   font-size: 1.25rem;      /* Slightly larger font size */
- color: #004080; /* navy blue */
+ color: #004080; 
    transition: color 0.3s ease; 
   letter-spacing: 0.02em; 
 }
@@ -668,18 +697,27 @@ ol {
   display: block;
   margin-bottom: 8px;
 }
-
 .booking-form form .select-option select {
   border-radius: 2px;
   border: 1px solid #ebebeb;
   height: 40px;
   width: 100%;
   padding-left: 20px;
+  padding-right: 40px; /* give room for custom arrow */
   font-size: 16px;
   color: #19191a;
   text-transform: uppercase;
   font-weight: 500;
+  appearance: none; /* hide default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("/down-arrow.svg") no-repeat right 15px center;
+  background-size: 16px;
+  background-color: #fff; /* or whatever bg you're using */
 }
+
+
+
 
 .booking-form form button {
   display: block;
@@ -752,6 +790,7 @@ ol {
 
 .service-item:hover {
   background: #dfa974;
+  border-radius: 6px;
 }
 
 .service-item:hover i {
@@ -880,6 +919,7 @@ ol {
   color: #707079;
   line-height: 30px;
   margin-bottom: 50px;
+  min-height: 13vh;
 }
 
 .testimonial-slider .ts-item .ti-author {
@@ -1198,12 +1238,12 @@ ol {
   color: #000;
   font-weight: 500;
   text-decoration: none;
-  transition: color 0.3s ease;
+
 }
 
-.room-wrap:hover .ptext-link {
+/* .room-wrap:hover .ptext-link {
   color: #FFF;
-}
+} */
 .p-contact{
   text-align: center;
   font-size: 44px;
@@ -1428,6 +1468,9 @@ ol {
   /* justify-content: center !important; */
   /* gap:14px !important */
 }
+.services {
+  margin-bottom: 1rem !important;
+}
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1435,6 +1478,10 @@ ol {
     margin-bottom: 1rem;
  
 }
+.services {
+  margin-bottom: 1rem !important;
+}
+
 .amentiesServices{
   /* justify-content: center !important;
   gap:14px !important */
@@ -1446,10 +1493,25 @@ ol {
   .hero-text {
     padding-top: 49px;
 }
+.whatsapp-text {
+    bottom: 30px !important;
+
+}
+.services {
+  
+    border-radius: 1% 0% 0% 0 !important;
+
+    padding: 20px 4px !important;
+ 
+}
 .hero-text h1 {
  
     font-size: 47px;
     line-height: 77px;
+}
+.services {
+  margin-bottom: 1rem !important;
+  margin: auto;
 }
 .section-title h2 {
   
@@ -1464,14 +1526,10 @@ ol {
   /* justify-content: center !important;
   gap:14px !important */
 }
-.services {
-    width: 87% !important;
-    /* display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important; */
+.amentiesServices{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
 
-    padding: 30px 20px !important;
- 
 }
 .attractionsectionptag{
   font-size: 33px !important;;
@@ -1479,16 +1537,40 @@ ol {
     font-weight: 700 !important;;
 
 }
+.sectionabout{
+  gap:10px
+}
 
 }
 @media (min-width: 375px) and (max-width: 424px) {
   .hero-text {
     padding-top: 15px;
 }
+.canvas-open {
+ 
+  right: 18px;
+  top: 30px;
+
+}
+.spad {
+
+    padding-bottom: 10px;
+}
+.sectionabout{
+  gap:10px
+}
+.whatsapp-text {
+    bottom: 30px !important;
+
+}
 .hero-text h1 {
  
      font-size: 50px;
     line-height: 90px;
+}
+.services {
+  margin-bottom: 1rem !important;
+  margin: auto;
 }
 .spad {
     padding-top: 63px;
@@ -1504,17 +1586,16 @@ ol {
    
 }
 .services {
-    /* width: 87% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    margin: auto !important; */
+  
+    border-radius: 1% 0% 0% 0 !important;
 
-    padding: 30px 20px !important;
+    padding: 20px 4px !important;
  
 }
 .amentiesServices{
-  /* justify-content: center !important;
-  gap:14px !important */
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+
 }
 .attractionsectionptag{
   font-size: 30px !important;;
@@ -1527,10 +1608,18 @@ ol {
   .hero-text {
     padding-top: 15px;
 }
+.whatsapp-text {
+    bottom: 30px !important;
+
+}
 .hero-text h1 {
  
      font-size: 35px;
     line-height: 50px;
+}
+.services {
+  margin-bottom: 1rem !important;
+  margin: auto;
 }
 .spad {
     padding-top: 60px;
@@ -1565,6 +1654,12 @@ ol {
     font-weight: 700 !important;
    
 
+
+}
+.canvas-open {
+ 
+  right: 10px;
+  top: 36px;
 
 }
 

@@ -30,9 +30,10 @@ function Features() {
 
                 <div className="text p-5 text-center">
                   <p className='ptext'>
-                    <a href="room-single.html" className="ptext-link"> AC Rooms</a>
+                    AC Rooms
+                    {/* <a href="room-single.html" className="ptext-link"> AC Rooms</a> */}
                   </p>
-                  <p>
+                  <p className='p-features'>
                     Well-furnished air-conditioned rooms equipped with modern amenities, perfect for couples, families, or solo travelers seeking comfort and privacy.
                   </p>
                   <p className="mb-0 mt-2">
@@ -61,9 +62,12 @@ function Features() {
 
                 <div className="text p-5 text-center">
                   <p className='ptext'>
-                    <a href="room-single.html" className="ptext-link">2 AC Halls </a>
+                    {/* <a href="room-single.html" className="ptext-link"> */}
+                      2 AC Halls
+                       {/* </a> */}
+
                   </p>
-                  <p>
+                  <p className='p-features'>
                     Cozy air-conditioned halls designed for small meetings or private gatherings, accommodating up to 6 guests comfortably.
                   </p>
                   <p className="mb-0 mt-2">
@@ -92,9 +96,11 @@ function Features() {
 
                 <div className="text p-5 text-center">
                   <p className='ptext'>
-                    <a href="room-single.html" className="ptext-link">2 Large Halls </a>
+                    {/* <a href="room-single.html" className="ptext-link"> */}
+                      2 Large Halls 
+                      {/* </a> */}
                   </p>
-                  <p>
+                  <p className='p-features'>
                     Spacious and fully equipped halls ideal for events, conferences, parties, or social gatherings with a seating capacity of up to 50 guests.
                   </p>
                   <p className="mb-0 mt-2" style={{

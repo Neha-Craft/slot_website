@@ -37,14 +37,22 @@ export default function Header() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
+            
               <ul className="tn-left">
-                <li>
-                  <i className="fa fa-phone"></i> (+91) 777-208-7177
-                </li>
-                <li>
-                  <i className="fa fa-envelope"></i> info.radhamadhavam@gmail.com
-                </li>
-              </ul>
+  <li>
+    <i className="fa fa-phone"></i>
+    <a href="tel:+917772087177" style={{ marginLeft: '5px', color: 'inherit', textDecoration: 'none' }}>
+      (+91) 777-208-7177
+    </a>
+  </li>
+  <li>
+    <i className="fa fa-envelope"></i>
+    <a href="mailto:info.radhamadhavam@gmail.com" style={{ marginLeft: '5px', color: 'inherit', textDecoration: 'none' }}>
+      info.radhamadhavam@gmail.com
+    </a>
+  </li>
+</ul>
+
             </div>
             <div className="col-lg-6">
               <div className="tn-right">
@@ -52,14 +60,12 @@ export default function Header() {
                   <a href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  {/* <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a> */}
-                  <a href="#">
+              
+                  <a href="https://www.instagram.com/shri_radhamadhavam_resort/">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
-                <a href="#" className="bk-btn">
+                <a href="tel:+917772087177" className="bk-btn">
                   Call Now
                 </a>
               </div>
@@ -93,9 +99,7 @@ export default function Header() {
                     <li className="active">
                       <Link href="/">Home</Link>
                     </li>
-                    <li>
-                      <Link href="/rooms">Rooms</Link>
-                    </li>
+               
                     <li>
                       <Link href="/about-us">About Us</Link>
                     </li>

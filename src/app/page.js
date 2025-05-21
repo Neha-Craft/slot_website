@@ -17,40 +17,28 @@ import ContactInfo from "@/src/components/contactus"
 import OfferCards from "@/src/components/OfferCards"
 import AttractionSection from "@/src/components/attractionSection"
 import Gallery from "@/src/components/gallery"
+import GoogleMap from "../components/googleMap"
 
 export default function Home() {
   return (
     <main>
-          <OffcanvasMenu />  
-        <Header />   
-       
-    
-        
-            <HeroSection />    
-             <AboutSection />     
-             <ServicesSection />  
-              <Gallery/> 
-
-       
-       
-          
-        
-                {/* <Specialoccassions/>    */}
-          
-                   <Services/>  
-                   <AttractionSection/>  
+             <HeroSection />      
+               <AboutSection />      
+             <ServicesSection />    
+                <Gallery/>   
+                    <Services/>    
+                     <AttractionSection/>    
                   
-         <Features/> 
+           <Features/>   
+             <GoogleMap/>      
           
-         <ContactInfo/>
-           <TestimonialSection />     
-          <Footer />   
-         <SearchModel />          
+    
+             <TestimonialSection />    
+        
+      
+          <SearchModel />           
 
-            {/* <RoomSection />       */}
-                {/* <BlogSection />        */}
-                   {/* < OfferCards/>   */}
-                      {/* <FacilitiesInfo/>   */}
+   
 
          
     </main>

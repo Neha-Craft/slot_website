@@ -87,7 +87,7 @@ function Services() {
                   <Scissors size={60} strokeWidth={1.5} color="#333" />
                 </div>
                 <div className="text">
-                  <p>Beauty &amp; Health</p>
+                  <p>Pure Veg</p>
                 </div>
               </a>
             </div>
