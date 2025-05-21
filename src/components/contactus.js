@@ -203,6 +203,7 @@ export default function ContactInfo() {
                         transition: "background-color 0.3s",
                         opacity: loading ? 0.7 : 1,
                         cursor: loading ? "not-allowed" : "pointer",
+                        whiteSpace:"nowrap"
                       }}
                     >
                       {loading ? (
