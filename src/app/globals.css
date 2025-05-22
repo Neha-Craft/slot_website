@@ -221,6 +221,16 @@ ol {
   background: #dfa974;
   content: "";
 }
+.custom-active-item {
+ opacity: revert-layer;
+  border-radius: 16px !important;
+  border: none !important;
+  --bs-bg-opacity: 4; /* This line doesn't have any effect unless used correctly; you can remove it */
+  background-color: #dfa974 !important;
+  color: white !important; /* Optional, ensures icon is visible */
+  padding: 20px !important;
+}
+
 
 /* Preloder */
 
@@ -429,6 +439,15 @@ ol {
   font-size: 0.875rem;    
   color: #7f8c8d;       
 }
+.custom-play-badge {
+  opacity: revert-layer;
+  border-radius: 4px !important;
+  border: none !important;
+  --bs-bg-opacity: 4 !important; /* This line doesn't have any effect unless used correctly; you can remove it */
+  background-color: #dfa974 !important;
+  color: white !important; /* Optional, ensures icon is visible */
+}
+
 
 
 .top-nav .tn-left li:after {
@@ -1514,6 +1533,9 @@ ol {
     margin-bottom: 1rem;
  
 }
+.places-p{
+  padding-bottom: 16px !important;
+}
 .services {
   margin-bottom: 1rem !important;
 }
@@ -1536,6 +1558,16 @@ ol {
     bottom: 30px !important;
 
 }
+.text-muted{
+  font-size: 13px !important;
+}
+.spad {
+    padding-top: 100px;
+    padding-bottom: 0px !important;
+}
+.places-p{
+  padding-bottom: 16px !important;
+}
 .about-text p.s-para {
   padding-bottom: 1rem !important;
 }
@@ -1546,10 +1578,13 @@ ol {
     padding: 20px 4px !important;
  
 }
+.about-text p.f-para {
+  text-align: justify !important;
+}
 .hero-text h1 {
  
     font-size: 47px;
-    line-height: 77px;
+    line-height: 64px;
 }
 .services {
   margin-bottom: 1rem !important;
@@ -1582,11 +1617,18 @@ ol {
 .sectionabout{
   gap:10px
 }
+.about-text p.s-para {
+  padding-bottom: 1rem !important;
+  text-align: justify !important;
+}
 
 }
 @media (min-width: 375px) and (max-width: 424px) {
   .hero-text {
     padding-top: 15px;
+}
+.text-muted{
+  font-size: 13px !important;
 }
 .canvas-open {
  
@@ -1594,8 +1636,19 @@ ol {
   top: 30px;
 
 }
+.spad {
+    padding-top: 100px;
+    padding-bottom: 0px !important;
+}
+.places-p{
+  padding-bottom: 16px !important;
+}
+.about-text p.f-para {
+  text-align: justify !important;
+}
 .about-text p.s-para {
   padding-bottom: 1rem !important;
+  text-align: justify !important;
 }
 .spad {
 
@@ -1611,7 +1664,7 @@ ol {
 .hero-text h1 {
  
      font-size: 50px;
-    line-height: 90px;
+    line-height: 64px;
 }
 .services {
   margin-bottom: 1rem !important;
@@ -1628,6 +1681,7 @@ ol {
 .section-title h2 {
   
     font-size: 30px;
+        line-height: 45px;
    
 }
 .services {
@@ -1656,6 +1710,9 @@ ol {
 .whatsapp-text {
     bottom: 30px !important;
 
+}
+.places-p{
+  padding-bottom: 16px !important;
 }
 .about-text p.s-para {
   padding-bottom: 1rem !important;

@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/srmlogo.png" />
-        <link rel="icon" type="image/png" href="/srmlogo.png" />
+        <link rel="icon" href="/fevicon.jpeg" />
+        <link rel="icon" type="image/jpeg" href="/fevicon.jpeg" />
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -80,8 +80,8 @@ export default function RootLayout({ children }) {
               telephone: "+91-7772087177",
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 26.2183,
-                longitude: 78.1828,
+            latitude: 26.4665609,     // updated latitude
+        longitude: 78.6137099, 
               },
               url: "https://srmresort.in/lander",
               amenityFeature: [

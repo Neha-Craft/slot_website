@@ -83,13 +83,13 @@ export default function Header() {
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/main-logo.png"
+                    src="/srmlogo.png"
                     alt="Logo"
                     width={250}
                     height={60}
                     style={{
-                      width:"250px",
-                  minHeight:"60px"
+                      width:"auto",
+                  maxHeight:"90px"
                     }}
                   />
                 </Link>
@@ -108,6 +108,9 @@ export default function Header() {
                     </li>
                     <li>
                       <Link href="/contact">Contact</Link>
+                    </li>
+                     <li>
+                      <Link href="/eventsgallery">Events</Link>
                     </li>
                   </ul>
                 </nav>
