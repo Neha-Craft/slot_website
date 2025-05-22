@@ -45,7 +45,8 @@ export default function ResortVideoGallery() {
   };
 
   return (
-    <div className="container py-4">
+    <div style={{ backgroundColor: "#f8f8f8" }} className="py-5">
+    <div className="container py-4" tyle={{ backgroundColor: "#000" }}>
       {/* Header Section */}
       <div className="row mb-4">
         <div className="col-12 text-center">
@@ -147,6 +148,7 @@ export default function ResortVideoGallery() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
