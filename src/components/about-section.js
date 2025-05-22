@@ -15,7 +15,7 @@ export default function AboutSection() {
                 Located in the historic city of Gwalior, Shree RADHA Madhavam Resort is a luxurious and serene destination designed for those seeking an escape from the ordinary. Surrounded by natural beauty and cultural richness, our resort offers a perfect blend of modern amenities and traditional hospitality.
               </p>
               <p className="s-para">
-                Whether you're celebrating life’s special moments or simply looking for a peaceful retreat, our property is the ideal backdrop for weddings, corporate events, and weekend getaways. Experience spacious accommodations, stunning landscapes, and warm service — all in the heart of Madhya Pradesh.
+                Whether you are celebrating lifes special moments or simply looking for a peaceful retreat, our property is the ideal backdrop for weddings, corporate events, and weekend getaways. Experience spacious accommodations, stunning landscapes, and warm service — all in the heart of Madhya Pradesh.
               </p>
             </div>
           </div>
