@@ -807,6 +807,11 @@ ol {
 .about-pic img {
   min-width: 100%;
 }
+@media (max-width: 767px) {
+  .main-video-container {
+    height: 200px !important;
+  }
+}
 
 /* Services Section */
 .services-section {

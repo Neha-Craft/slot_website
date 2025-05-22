@@ -75,7 +75,13 @@ export default function OffcanvasMenu() {
               <Link href="/contact" onClick={closeOffcanvasMenu}>
                 Contact
               </Link>
+              {/* <li>
+                      <Link href="/eventsgallery">Events</Link>
+                    </li> */}
             </li>
+            <li>
+                      <Link href="/eventsgallery">Events</Link>
+                    </li>
           </ul>
         </nav>
  
