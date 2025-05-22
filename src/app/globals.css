@@ -411,6 +411,18 @@ ol {
    transition: color 0.3s ease; 
   letter-spacing: 0.02em; 
 }
+.hamburger-bar{
+  text-decoration: none !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+
+    /* textDecoration: none;
+     fontSize:16px
+     fontWeight:"600";
+     color:"#FFFFF !important" */
+
+}
 
 .price small {
   font-weight: 400;       
@@ -568,7 +580,7 @@ ol {
   width: 30px;
   height: 30px;
   color: #19191a;
-  border: 1px solid #19191a;
+  /* border: 1px solid #19191a; */
   border-radius: 2px;
   line-height: 33px;
   text-align: center;

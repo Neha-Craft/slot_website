@@ -58,11 +58,14 @@ export default function Header() {
               <div className="tn-right">
                 <div className="top-social">
                   <a href="#">
-                    <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"   target="_blank" 
+  rel="noopener noreferrer"></i>
                   </a>
               
-                  <a href="https://www.instagram.com/shri_radhamadhavam_resort/">
+                  <a href="https://www.instagram.com/shri_radhamadhavam_resort/"   target="_blank" 
+  rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
+                    
                   </a>
                 </div>
                 <a href="tel:+917772087177" className="bk-btn">
@@ -80,7 +83,7 @@ export default function Header() {
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/logo.png"
+                    src="/main-logo.png"
                     alt="Logo"
                     width={250}
                     height={60}

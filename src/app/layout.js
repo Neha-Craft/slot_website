@@ -1,8 +1,8 @@
 import { Inter, Lora, Cabin } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import OffcanvasMenu from "../components/offcanvas-menu";
 import Header from "../components/header";
@@ -14,13 +14,17 @@ const cabin = Cabin({ subsets: ["latin"], variable: "--font-cabin" });
 
 export const metadata = {
   title: "Shree Radhamadhavam Resort – AC/Non-AC Rooms in Gwalior",
-  description: "Affordable resort near Dandrua Sarkar Temple, Gwalior. AC/Non-AC rooms from ₹2000/night. Ideal for events, marriages, and functions.",
+  description:
+    "Affordable resort near Dandrua Sarkar Temple, Gwalior. AC/Non-AC rooms from ₹2000/night. Ideal for events, marriages, and functions.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/srmlogo.png" />
+        <link rel="icon" type="image/png" href="/srmlogo.png" />
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -34,54 +38,70 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        
-      
-        <meta name="keywords" content="Resort in Gwalior, AC rooms Gwalior, marriage hall, events near Dandrua Sarkar Temple, budget stay Gwalior" />
+
+        <meta
+          name="keywords"
+          content="Resort in Gwalior, AC rooms Gwalior, marriage hall, events near Dandrua Sarkar Temple, budget stay Gwalior"
+        />
         <meta name="robots" content="index, follow" />
-   <link rel="canonical" href="https://srmresort.in/lander" />
+        <link rel="canonical" href="https://srmresort.in/lander" />
 
-
-     
-        <meta property="og:title" content="Shree Radhamadhavam Resort – Rooms & Events in Gwalior" />
-        <meta property="og:description" content="Book AC & Non-AC rooms from ₹2000/night. Best venue for weddings and events near Dandrua Sarkar Temple." />
+        <meta
+          property="og:title"
+          content="Shree Radhamadhavam Resort – Rooms & Events in Gwalior"
+        />
+        <meta
+          property="og:description"
+          content="Book AC & Non-AC rooms from ₹2000/night. Best venue for weddings and events near Dandrua Sarkar Temple."
+        />
         <meta property="og:image" content="https://freeimage.host/i/3QZqRyb" />
         <meta property="og:url" content="https://srmresort.in/lander" />
         <meta property="og:type" content="website" />
 
-     
-
-      
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LodgingBusiness",
-              "name": "Shree Radhamadhavam Resort",
-              "description": "Affordable resort near Dandrua Sarkar Temple in Gwalior. AC and Non-AC rooms from ₹2000/night. Weddings, events, functions.",
-              "image": "https://srmresort.in/images/resort-cover.jpg",
-              "priceRange": "₹2000 - ₹5000",
-              "address": {
+              name: "Shree Radhamadhavam Resort",
+              description:
+                "Affordable resort near Dandrua Sarkar Temple in Gwalior. AC and Non-AC rooms from ₹2000/night. Weddings, events, functions.",
+              image: "https://srmresort.in/images/resort-cover.jpg",
+              priceRange: "₹2000 - ₹5000",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "Near Dandrua Sarkar Temple, Gwalior",
-                "addressLocality": "Gwalior",
-                "addressRegion": "MP",
-                "postalCode": "474001",
-                "addressCountry": "IN"
+                streetAddress: "Near Dandrua Sarkar Temple, Gwalior",
+                addressLocality: "Gwalior",
+                addressRegion: "MP",
+                postalCode: "474001",
+                addressCountry: "IN",
               },
-              "telephone": "+91-7772087177",
-              "geo": {
+              telephone: "+91-7772087177",
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": 26.2183,
-                "longitude": 78.1828
+                latitude: 26.2183,
+                longitude: 78.1828,
               },
-              "url": "https://srmresort.in/lander",
-              "amenityFeature": [
-                { "@type": "LocationFeatureSpecification", "name": "Air Conditioned Rooms", "value": true },
-                { "@type": "LocationFeatureSpecification", "name": "Event Hall", "value": true },
-                { "@type": "LocationFeatureSpecification", "name": "Parking Available", "value": true }
-              ]
-            })
+              url: "https://srmresort.in/lander",
+              amenityFeature: [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Air Conditioned Rooms",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Event Hall",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Parking Available",
+                  value: true,
+                },
+              ],
+            }),
           }}
         />
       </head>
@@ -120,8 +140,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-
-
-
-
