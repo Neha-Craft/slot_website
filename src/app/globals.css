@@ -1505,6 +1505,9 @@ ol {
 .services {
   margin-bottom: 1rem !important;
 }
+.about-text p.s-para {
+  padding-bottom: 1rem !important;
+}
 
 .amentiesServices{
   /* justify-content: center !important;
@@ -1520,6 +1523,9 @@ ol {
 .whatsapp-text {
     bottom: 30px !important;
 
+}
+.about-text p.s-para {
+  padding-bottom: 1rem !important;
 }
 .services {
   
@@ -1575,6 +1581,9 @@ ol {
   right: 18px;
   top: 30px;
 
+}
+.about-text p.s-para {
+  padding-bottom: 1rem !important;
 }
 .spad {
 
@@ -1635,6 +1644,9 @@ ol {
 .whatsapp-text {
     bottom: 30px !important;
 
+}
+.about-text p.s-para {
+  padding-bottom: 1rem !important;
 }
 .hero-text h1 {
  
