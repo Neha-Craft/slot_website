@@ -1,7 +1,3 @@
-
-
-
-
 "use client";
 
 import Link from "next/link";
@@ -32,41 +28,59 @@ export default function Header() {
   };
 
   return (
-  <header className="header-section">
+    <header className="header-section">
       <div className="top-nav">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-            
               <ul className="tn-left">
-  <li>
-    <i className="fa fa-phone"></i>
-    <a href="tel:+917772087177" style={{ marginLeft: '5px', color: 'inherit', textDecoration: 'none' }}>
-      (+91) 777-208-7177
-    </a>
-  </li>
-  <li>
-    <i className="fa fa-envelope"></i>
-    <a href="mailto:info.radhamadhavam@gmail.com" style={{ marginLeft: '5px', color: 'inherit', textDecoration: 'none' }}>
-      info.radhamadhavam@gmail.com
-    </a>
-  </li>
-  
-</ul>
-
+                <li>
+                  <i className="fa fa-phone"></i>
+                  <a
+                    href="tel:+917772087177"
+                    style={{
+                      marginLeft: "5px",
+                      color: "inherit",
+                      textDecoration: "none",
+                    }}
+                  >
+                    (+91) 777-208-7177
+                  </a>
+                </li>
+                <li>
+                  <i className="fa fa-envelope"></i>
+                  <a
+                    href="mailto:info.radhamadhavam@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    style={{
+                      marginLeft: "5px",
+                      color: "inherit",
+                      textDecoration: "none",
+                    }}
+                  >
+                    info.radhamadhavam@gmail.com
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className="col-lg-6">
               <div className="tn-right">
                 <div className="top-social">
                   <a href="#">
-                    <i className="fab fa-facebook-f"   target="_blank" 
-  rel="noopener noreferrer"></i>
+                    <i
+                      className="fab fa-facebook-f"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></i>
                   </a>
-              
-                  <a href="https://www.instagram.com/shri_radhamadhavam_resort/"   target="_blank" 
-  rel="noopener noreferrer">
+
+                  <a
+                    href="https://www.instagram.com/shri_radhamadhavam_resort/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fab fa-instagram"></i>
-                    
                   </a>
                 </div>
                 <a href="tel:+917772087177" className="bk-btn">
@@ -89,8 +103,8 @@ export default function Header() {
                     width={250}
                     height={60}
                     style={{
-                      width:"auto",
-                  maxHeight:"90px"
+                      width: "auto",
+                      maxHeight: "90px",
                     }}
                   />
                 </Link>
@@ -103,14 +117,14 @@ export default function Header() {
                     <li className="active">
                       <Link href="/">Home</Link>
                     </li>
-               
+
                     <li>
                       <Link href="/about-us">About Us</Link>
                     </li>
                     <li>
                       <Link href="/contact">Contact</Link>
                     </li>
-                     <li>
+                    <li>
                       <Link href="/eventsgallery">Events</Link>
                     </li>
                   </ul>
