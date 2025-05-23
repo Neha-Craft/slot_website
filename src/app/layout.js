@@ -1,3 +1,4 @@
+
 import { Inter, Lora, Cabin } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
@@ -41,10 +42,10 @@ export default function RootLayout({ children }) {
 
         <meta
           name="keywords"
-          content="Resort in Gwalior, AC rooms Gwalior, marriage hall, events near Dandrua Sarkar Temple, budget stay Gwalior"
+          content="Resort in Gwalior,Shree Radhamadhavam Gwalior, Radhamadhavam Resort in gwalior, Resort in Bhind, Resort near bhind"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://srmresort.in/lander" />
+        <link rel="canonical" href="https://srmresort.in/" />
 
         <meta
           property="og:title"
@@ -54,10 +55,12 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="Book AC & Non-AC rooms from ₹2000/night. Best venue for weddings and events near Dandrua Sarkar Temple."
         />
-        <meta property="og:image" content="https://freeimage.host/i/3QZqRyb" />
-        <meta property="og:url" content="https://srmresort.in/lander" />
+     <meta property="og:image" content="https://srmresort.in/srmlogo.png" />
+
+        <meta property="og:url" content="https://srmresort.in" />
         <meta property="og:type" content="website" />
 
+  
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -67,7 +70,7 @@ export default function RootLayout({ children }) {
               name: "Shree Radhamadhavam Resort",
               description:
                 "Affordable resort near Dandrua Sarkar Temple in Gwalior. AC and Non-AC rooms from ₹2000/night. Weddings, events, functions.",
-              image: "https://srmresort.in/images/resort-cover.jpg",
+              image: "https://srmresort.in/srmlogo.png",
               priceRange: "₹2000 - ₹5000",
               address: {
                 "@type": "PostalAddress",
@@ -80,10 +83,20 @@ export default function RootLayout({ children }) {
               telephone: "+91-7772087177",
               geo: {
                 "@type": "GeoCoordinates",
-            latitude: 26.4665609,     // updated latitude
-        longitude: 78.6137099, 
+                latitude: 26.4665609,
+                longitude: 78.6137099,
               },
-              url: "https://srmresort.in/lander",
+              url: "https://srmresort.in",
+              starRating: {
+                "@type": "Rating",
+                ratingValue: "3",
+                bestRating: "5"
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.2",
+                reviewCount: "128"
+              },
               amenityFeature: [
                 {
                   "@type": "LocationFeatureSpecification",
@@ -140,3 +153,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+
+

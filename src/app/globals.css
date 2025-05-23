@@ -807,6 +807,11 @@ ol {
 .about-pic img {
   min-width: 100%;
 }
+@media (max-width: 767px) {
+  .main-video-container {
+    height: 200px !important;
+  }
+}
 
 /* Services Section */
 .services-section {
@@ -1716,13 +1721,7 @@ ol {
   grid-template-columns: 1fr 1fr !important;
 
 }
-/* .services {
-  
-    border-radius: 1% 0% 0% 0 !important;
 
-    padding: 20px 4px !important;
- 
-} */
 .places-p{
   padding-bottom: 16px !important;
 }
