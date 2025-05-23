@@ -1,11 +1,24 @@
 import Image from "next/image";
 import React from "react";
-import { Wifi, Calendar, Utensils, Waves, Scissors, ConciergeBell } from "lucide-react";
-
+import {
+  Wifi,
+  Calendar,
+  Utensils,
+  Waves,
+  Scissors,
+  ConciergeBell,
+} from "lucide-react";
 
 function Services() {
   return (
-   <div style={{ background: "#f8f8f8", paddingBottom: "2rem", marginBottom: "2rem", marginTop: "2rem" }}>
+    <div
+      style={{
+        background: "#f8f8f8",
+        paddingBottom: "2rem",
+        marginBottom: "2rem",
+        marginTop: "2rem",
+      }}
+    >
       <div>
         <div>
           <p className="unwindservices"> Services</p>
@@ -13,8 +26,7 @@ function Services() {
         </div>
         <div className=" container ">
           <div className="row gx-3 amentiesServices">
-          
-               <div
+            <div
               className="col-md-3 col-xl-2 text-center d-flex align-items-stretch aos-init aos-animate"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -25,11 +37,11 @@ function Services() {
                   <Wifi size={60} strokeWidth={1.5} color="#333" />
                 </div>
                 <div className="text">
-                    <p>Free Wifi</p>
+                  <p>Free Wifi</p>
                 </div>
               </div>
             </div>
-                  <div
+            <div
               className="col-md-3 col-xl-2 text-center d-flex align-items-stretch aos-init aos-animate"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -92,23 +104,20 @@ function Services() {
               </div>
             </div>
             <div
-  className="col-md-3 col-xl-2 text-center d-flex align-items-stretch aos-init aos-animate"
-  data-aos="fade-up"
-  data-aos-delay="600"
-  data-aos-duration="1000"
->
-  <div className="services">
-    <div className="icon">
-      <ConciergeBell size={60} strokeWidth={1.5} color="#333" />
-    </div>
-    <div className="text">
-      <p>24x7 Room Service</p>
-    </div>
-  </div>
-</div>
-
-
-       
+              className="col-md-3 col-xl-2 text-center d-flex align-items-stretch aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="1000"
+            >
+              <div className="services">
+                <div className="icon">
+                  <ConciergeBell size={60} strokeWidth={1.5} color="#333" />
+                </div>
+                <div className="text">
+                  <p className="services-room">24x7 Room Service</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

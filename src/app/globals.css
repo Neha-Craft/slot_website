@@ -1711,6 +1711,18 @@ ol {
     bottom: 30px !important;
 
 }
+.amentiesServices{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+
+}
+/* .services {
+  
+    border-radius: 1% 0% 0% 0 !important;
+
+    padding: 20px 4px !important;
+ 
+} */
 .places-p{
   padding-bottom: 16px !important;
 }
@@ -1726,6 +1738,10 @@ ol {
   margin-bottom: 1rem !important;
   margin: auto;
 }
+/* .services-room {
+  white-space: nowrap !important;
+} */
+
 .spad {
     padding-top: 60px;
  
