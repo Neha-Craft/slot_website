@@ -59,7 +59,7 @@ export default function Header() {
                       textDecoration: "none",
                     }}
                   >
-                    info.radhamadhavam@gmail.com
+                    hello@srmresort.in
                   </a>
                 </li>
               </ul>

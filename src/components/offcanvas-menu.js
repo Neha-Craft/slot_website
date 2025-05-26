@@ -128,7 +128,7 @@ export default function OffcanvasMenu() {
               href="mailto:info.radhamadhavam@gmail.com"
               className="hamburger-bar"
             >
-              info.radhamadhavam@gmail.com
+              hello@srmresort.in
             </a>
           </li>
         </ul>

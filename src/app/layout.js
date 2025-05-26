@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
               geo: {
                 "@type": "GeoCoordinates",
                 latitude: 26.4665609,
-                longitude: 78.6137099,
+                longitude:78.6137099,
               },
               url: "https://srmresort.in",
               starRating: {
