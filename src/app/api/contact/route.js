@@ -16,7 +16,7 @@ export async function POST(request) {
 
     const mailOptions = {
       from: `"${name}" <${email}>`,
-      to: 'sudeep@craftandcode.in',
+      to: 'hello@srmresort.in',
       subject: `New Event Enquiry from ${name}`,
       html: `
         <h2>Event Enquiry</h2>
