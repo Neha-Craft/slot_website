@@ -132,18 +132,26 @@ export default function HeroSection() {
                   />
                 </div>
 
-                <div className="check-date">
-                  <label htmlFor="phone">Phone Number:</label>
-                  <input
-                    type="text"
-                    id="phone"
-                    className="date-input"
-               
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    required
-                  />
-                </div>
+             <div className="check-date">
+  <label htmlFor="phone">Phone Number:</label>
+  <input
+  type="number"
+  id="phone"
+  className="date-input"
+  value={phone}
+  onChange={(e) => {
+    const value = e.target.value;
+    if (value.length <= 10) {
+      setPhone(value);
+    }
+  }}
+  required
+
+/>
+
+
+</div>
+
 
                 <div className="select-option">
                   <label htmlFor="message">Message</label>
